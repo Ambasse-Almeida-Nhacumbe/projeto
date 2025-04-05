@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Nhecumbe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <input type="checkbox" id="dark-mode-toggle" hidden>
+
+  <header>
+    <div class="topo">
+      <h1 class="typing">Auto Peças</h1>
+      <label for="dark-mode-toggle" class="toggle-label">🌙</label>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li class="dropdown">
+          <a href="#categorias">Categorias</a>
+          <ul class="dropdown-content">
+            <li><a href="#sec-motor">Motor</a></li>
+            <li><a href="#sec-travoes">Travões</a></li>
+            <li><a href="#sec-suspensao">Suspensão</a></li>
+            <li><a href="#sec-eletricos">Elétricos</a></li>
+            <li><a href="#sec-filtros">Filtros</a></li>
+          </ul>
+        </li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Peças Originais Toyota</h1>
+    <p>As melhores peças automotivas com garantia e qualidade excepcionais</p>
+    <a href="#categorias" class="btn">Ver Catálogo</a>
+  </section>
+
+  <section id="categorias" class="categorias">
+    <h2>Categorias de Peças</h2>
+    <div class="grid-categorias">
+      <a href="#sec-motor" class="cat-card">
+        <i class="fas fa-cog"></i>
+        Motor
+      </a>
+      <a href="#sec-travoes" class="cat-card">
+        <i class="fas fa-stop-circle"></i>
+        Travões
+      </a>
+      <a href="#sec-suspensao" class="cat-card">
+        <i class="fas fa-car-side"></i>
+        Suspensão
+      </a>
+      <a href="#sec-eletricos" class="cat-card">
+        <i class="fas fa-bolt"></i>
+        Elétricos
+      </a>
+      <a href="#sec-filtros" class="cat-card">
+        <i class="fas fa-filter"></i>
+        Filtros
+      </a>
+    </div>
+  </section>
+
+  <section class="destaque">
+    <h2>Promoções Especiais</h2>
+    <p>Confira nossas peças com desconto por tempo limitado!</p>
+  </section>
+
+  <section id="sec-motor" class="secao-produtos">
+    <h2>Motor</h2>
+    <div class="grid-container">
+      <div class="item">
+        <img src="2.5l.png" alt="Motor 2.5L">
+        <h3>Motor 2.5L</h3>
+      </div>
+      <div class="item">
+        <img src="3.0v6.jpg" alt="Motor 3.0">
+        <h3>Motor 3.0 V6</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec-travoes" class="secao-produtos">
+    <h2>Travões</h2>
+    <div class="grid-container">
+      <div class="item">
+        <img src="tra1.png" alt="Discos de Travão">
+        <h3>Discos de Travão</h3>
+      </div>
+      <div class="item">
+        <img src="pastilha.png" alt="Pastilhas de Travão">
+        <h3>Pastilhas de Travão</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec-suspensao" class="secao-produtos">
+    <h2>Suspensão</h2>
+    <div class="grid-container">
+      <div class="item">
+        <img src="susp.png" alt="Amortecedor">
+        <h3>Amortecedor</h3>
+      </div>
+      <div class="item">
+        <img src="transferir.jpeg" alt="Mola Helicoidal">
+        <h3>Mola Helicoidal</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec-eletricos" class="secao-produtos">
+    <h2>Peças Elétricas</h2>
+    <div class="grid-container">
+      <div class="item">
+        <img src="bateria.jpeg" alt="Bateria">
+        <h3>Bateria</h3>
+      </div>
+      <div class="item">
+        <img src="alternador.jpeg" alt="Alternador">
+        <h3>Alternador</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec-filtros" class="secao-produtos">
+    <h2>Filtros</h2>
+    <div class="grid-container">
+      <div class="item">
+        <img src="filtro.jpeg" alt="Filtro de Óleo">
+        <h3>Filtro de Óleo</h3>
+      </div>
+      <div class="item">
+        <img src="filtrodear.jpeg" alt="Filtro de Ar">
+        <h3>Filtro de Ar</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma loja especializada em peças genuínas para viaturas Toyota. Atendemos com qualidade, confiança e entrega rápida em todo o país. Nossa missão é fornecer os melhores componentes automotivos com atendimento personalizado e suporte técnico especializado.</p>
+  </section>
+
+  <footer id="contato">
+    <p>&copy; 2025 Toyota Parts Store | Desenvolvido por Auto Nhecumbe</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
